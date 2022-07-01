@@ -25,19 +25,7 @@ body {
 
 }
 
-.theme-2 {
-  --one: #ffffff;
-  --two: #eddad1;
-  --three: #fff1e8;
-  --four: #fce9e8;
-  --five: #;
-  --six: #333333;
-  width: 100vw;
-      height: ;
-      max-width:100%;
-      overflow-x: hidden;
 
-}
 
 .row {
   margin: 0;
@@ -141,18 +129,20 @@ hr {
 
 /* HEADER */
 
-.header {
-  height: auto;
-  margin: 0;
-  padding: 0;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: transparent;
-  color: var(--four);
-  z-index: 30;
-  align-items: center;
-}
+
+
+  .header {
+    height: auto;
+    margin: 0;
+    padding: 1rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    color: var(--four);
+    z-index: 30;
+    align-items: center;
+  }
 
 .logo {
   color: var(--four);
@@ -250,7 +240,7 @@ h1 a:hover {
 
 .other {
   height: 20rem;
-  background-color: var(--five);
+  background-color: ;
   margin: ;
   padding: 1rem;
 }
